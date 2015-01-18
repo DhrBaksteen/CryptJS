@@ -1,0 +1,40 @@
+{
+	"maps": [
+		"wall06",
+		"wall08",
+		"wall51",
+		"wall509",
+		"wall42",
+		"wall08",
+		"wall07",
+		"wall56",
+		"wall40",
+		"flat520",
+		"wood_1",
+		"wood_2",
+		"wood_3",
+		"wood_4",
+		"wall56",
+		"FLOOR7_2"
+	],
+	"dungeonStyles": {
+		"crypt": {
+			"prefabs": {
+				"walls": ["wall", "wall_round_out"],
+				"wall_variation_1": ["wall_beam", "wall_round_out", "wall_round_in", "wall_arch", "wall_inset", "wall_pilar"],
+				"wall_variation_2": ["wall_beam"],
+				"floorCeiling": ["floor_ceiling"]
+			},
+			"materials": {
+				"wall_0": [0, 1, 2, 3, 4],
+				"wall_1": [0, 1, 6],
+				"wall_special": [14],
+				"floor_0": [9],
+				"ceiling_0": [9],
+				"wood": [10, 11, 12, 13],
+				"column": [4],
+				"column_base": [15]
+			}
+		}
+	}
+}

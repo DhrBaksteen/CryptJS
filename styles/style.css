@@ -1,0 +1,25 @@
+@font-face {
+	font-family: PoetsenOne;
+	src: url(../res/PoetsenOne.ttf);
+}
+
+body {
+	background: #404060;
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	margin: 100px 25%;
+	border: solid 4px #000000;
+	box-shadow: 0px 0px 30px #000000;
+}
+
+div.about {
+	position: relative;
+	top: -160px;
+	left: 900px;
+	font-family: Courier;
+	font-size: 12px;
+	color: #000000;
+}
